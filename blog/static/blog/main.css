@@ -1,7 +1,16 @@
 body {
-    background: #fafafa;
-    color: #333333;
+    background: #3E7488;
+    color: rgb(49, 85, 98);
     margin-top: 5rem;
+    line-height: 1;
+}
+
+a {
+    color: #5CD4AC;
+}
+
+#title {
+    font-family: 'Fredoka One', cursive;
 }
 
 h1,
@@ -10,23 +19,33 @@ h3,
 h4,
 h5,
 h6 {
-    color: #444444;
+    font-family: "Roboto",
+        "Helvetica",
+        "Arial",
+        sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.list-group-item-light {
+    color: rgb(49, 85, 98);
+    background-color: #c2e0d4;
 }
 
 ul {
-    margin: 0;
+    list-style-type: none;
 }
 
 .bg-steel {
-    background-color: #5f788a;
+    background-color: #A7CEBE;
 }
 
 .site-header .navbar-nav .nav-link {
-    color: #cbd5db;
+    color: #3E7488;
 }
 
 .site-header .navbar-nav .nav-link:hover {
-    color: #ffffff;
+    color: #EFF0EA;
 }
 
 .site-header .navbar-nav .nav-link.active {
@@ -34,7 +53,7 @@ ul {
 }
 
 .content-section {
-    background: #ffffff;
+    background: #EFF0EA;
     padding: 10px 20px;
     border: 1px solid #dddddd;
     border-radius: 3px;
@@ -42,11 +61,12 @@ ul {
 }
 
 .article-title {
-    color: #444444;
+    color: #3E7488;
+    font-size: 1.3rem;
 }
 
 a.article-title:hover {
-    color: #428bca;
+    color: #5CD4AC;
     text-decoration: none;
 }
 
