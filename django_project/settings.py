@@ -32,7 +32,6 @@ ALLOWED_HOSTS = ['https://bloglyd.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
-    "django_cleanup",
     "users.apps.UsersConfig",
     "blog.apps.BlogConfig",
     "crispy_forms",
